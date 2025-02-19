@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="LoginDesign.css">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white shadow-md rounded-lg flex max-w-4xl mx-auto">
+        <div class="p-8 w-1/2">
+            <div class="flex items-center justify-center mb-6">
+                <img alt="College Logo" class="mr-3" height="50" 
+                    src="https://s3-alpha-sig.figma.com/img/fc3c/5e08/cb583e095f8ec641750e3b9b78d9c8b0?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jgjawRRISC1Hj1EbudYUg40lZgWq5jsVE4issWBFvNlggtXJCwlbFJ2c76YWz0ygPgAgpRefy7UTiTVIYLa5T8~r-xT~34FjpU2gmtvr1nEFMA7ug1oKeas6RjLAFs0Ks~FtWh~55CDrP86HO-A5Mko13wBLuc~IcJJWwz3ZE~DZ8mEm~AstGZ7vFjqtcPAPZv8OFUQJ5sudyDBx4INAWLlCKS5-wa6Cnd7Bcg7O5Gt2XCEE4osTK0eDxzwH6YUBa1Nnndq71AmzJ492pL8wwX~k0IRNtBhtNJ1hXYy97UdYH3dKAh7PdCb5YR3zLPrCVNfVPEJbOUrrtBTI6e3a9A_" width="180"/>
+            </div>
+            <form>
+                <div class="mb-4 flex justify-between">
+                    <label class="text-gray-700"><input class="mr-2" type="checkbox"/> Student</label>
+                    <label class="text-gray-700"><input class="mr-2" type="checkbox"/> Faculty</label>
+                    <label class="text-gray-700"><input class="mr-2" type="checkbox"/> Management</label>
+                </div>
+                <div class="mb-4">
+                    <input class="input-field" placeholder="Email Address" type="email"/>
+                </div>
+                <div class="mb-4">
+                    <input class="input-field" placeholder="Password" type="password"/>
+                </div>
+                <div class="flex items-center justify-between mb-4">
+                    <label class="flex items-center text-gray-700">
+                        <input class="mr-2" type="checkbox"/> Remember Me
+                    </label>
+                    <a class="text-blue-500" href="#">Forgot Password?</a>
+                </div>
+                <button class="login-button">Login</button>
+            </form>
+            <div class="text-center my-4 text-gray-500">Login With</div>
+            <div class="flex justify-between">
+                <button class="google-button"><i class="fab fa-google mr-2"></i> Google</button>
+                <button class="facebook-button"><i class="fab fa-facebook-f mr-2"></i> Facebook</button>
+            </div>
+        </div>
+        <div class="w-1/2 p-8">
+            <img alt="Illustration of students studying with a large book and laptop" class="w-full h-full object-cover" height="400" 
+                src="https://storage.googleapis.com/a1aa/image/PwqKepglpKY5lDdq3mpb0I9fHnSVjOhpiNv0zV17Qsg.jpg" width="600"/>
+        </div>
+    </div>
+</body>
+</html>
